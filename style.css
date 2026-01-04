@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: #333;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.gelar {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.profile h2 {
+  color: white;
+  margin-top: 15px;
+}
+
+.profile h4 {
+  color: white;
+  opacity: 0.9;
+}
+
+.biodata {
+  background: linear-gradient(#ffffff 0%, #ffffffd5 40%, rgba(255,255,255,0) 100%);
+  padding: 30px 0 150px 0;
+}
+
+.mulai {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.selesai {
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.achievement {
+  padding: 50px 0;
+}
+
+.footer {
+  background: white;
+  padding: 40px 0 80px 0;
+}
+
+.contact a {
+  color: black;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.contact a:hover {
+  color: #9a08dd;
+}
+
+.watermark {
+  padding-top: 30px;
+  font-size: 12px;
+  color: #777;
+}
